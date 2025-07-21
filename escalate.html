@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="w-full">
+        <nav class="border-gray-200 bg-gray-900 py-2.5">
+            <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4">
+                <a href="#" class="flex items-center"><span
+                        class="self-center text-xl font-semibold whitespace-nowrap text-white">Issue Tracker</span></a>
+                <div class="flex items-center lg:order-2">
+                    <a class="rounded-lg border-2 border-white px-4 py-2 text-sm leading-[24px] font-medium text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 focus:outline-none sm:mr-2 lg:px-5 lg:py-2.5 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                        href="/"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                            </path>
+                        </svg></a><a
+                        class="rounded-lg border-2 border-white px-4 py-2 text-sm leading-[24px] font-medium text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 focus:outline-none sm:mr-2 lg:px-5 lg:py-2.5 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                        href="/guest">Log out</a>
+                </div>
+                <div class="hidden w-full items-center justify-between lg:order-1 lg:flex lg:w-auto" id="mobile-menu-2">
+                    <ul class="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8">
+                        <li><a class="block border-b py-2 pr-4 pl-3 text-gray-400 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-purple-700"
+                                href="/">Home</a></li>
+                        <li><a class="block border-b border-gray-700 py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-700 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-white"
+                                href="/add">Add Issue</a></li>
+                        <li><a class="block border-b border-gray-700 py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-700 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-white"
+                                href="/add">Saved Issue</a></li>
+                        <li><a class="block border-b border-gray-700 py-2 pr-4 pl-3 text-gray-400 hover:bg-gray-700 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-white"
+                                href="/about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="relative bg-gray-900">
+        <div class="absolute inset-x-0 bottom-0">
+            <svg viewBox="0 0 224 12" fill="currentColor" class="-mb-1 w-full text-white" preserveAspectRatio="none">
+                <path
+                    d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z">
+                </path>
+            </svg>
+        </div>
+        <div class="mx-auto px-4 py-4 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-8">
+            <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl sm:text-center md:max-w-2xl">
+                <h2
+                    class="mb-6 text-center font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+                    Effortless Issue Tracking</h2>
+                <p class="mb-8 text-center text-base text-indigo-200 md:text-lg">Manage and track issues seamlessly with
+                    our interactive and responsive platform. Add, edit, and filter issues with ease—all in one place.
+                </p>
+                <a class="mx-auto rounded-lg border-2 border-white px-4 py-2 text-sm leading-[24px] font-medium text-white hover:bg-gray-700 focus:ring-4 focus:ring-gray-800 focus:outline-none sm:mr-2 lg:px-5 lg:py-2.5"
+                    href="/add">Add Issue<svg class="ml-2 inline h-6 w-6 text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 12H4m12 0-4 4m4-4-4-4m3-4h2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3h-2"></path>
+                    </svg></a>
+                <p class="mb-10 max-w-md text-xs tracking-wide text-indigo-100 sm:mx-auto sm:text-sm md:mb-8"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="banner">
+        <img src="./assets/BannerPeople.png">
+    </div>
+
+
+
+
+
+    <!-- /HEADER -->
+
+
+    <!--ESCALE-->
+
+
+    <div>
+
+
+        <a href="./#type"
+            class="inline-block m-4 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold shadow-md hover:bg-blue-700 transition duration-300"
+            id="buttoon">
+            Go Back
+        </a>
+    </div>
+
+
+
+
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-6 my-12">
+        <!-- Visual container -->
+        <div id="mediaContainer" class="w-[70vw] h-auto relative transition-all duration-500">
+            <a href="./#type">
+                <video transition:name="Escalate" id="escalateImage" src="./assets/rocket.mp4" autoplay muted
+                    playsinline class="relative rounded-xl shadow-2xl border-8 border-white w-full h-auto">
+            </a>
+        </div>
+
+        <!-- Text beside media -->
+        <div class="max-w-md text-center md:text-left text-gray-800">
+            <p class="text-xl font-semibold">
+                With the best customer service we will help you grow your business.
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <!--/ESCALE-->
+
+
+
+
+    <!--SERVICES-->
+
+
+    <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+        <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Services</h2>
+        <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
+        <div class="w-full">
+            <div class="flex flex-col w-full mb-10 sm:flex-row">
+                <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                    <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-indigo-500 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">DAPP Development</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">A decentralized application (dapp) is an application built on
+                                a
+                                decentralized network that combines a smart contract and a frontend user interface.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2">
+                    <div class="relative h-full ml-0 md:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Web 3.0 Development</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">Web 3.0 is the third generation of Internet services that will
+                                focus on understanding and analyzing data to provide a semantic web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-full mb-5 sm:flex-row">
+                <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                    <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Project Audit</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">A Project Audit is a formal review of a project, which is
+                                intended
+                                to assess the extent up to which project management standards are being upheld.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                    <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Hacking / RE</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">A security hacker is someone who explores methods for
+                                breaching
+                                defenses and exploiting weaknesses in a computer system or network.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2">
+                    <div class="relative h-full ml-0 md:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Bot/Script Development</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">Bot development frameworks were created as advanced software
+                                tools
+                                that eliminate a large amount of manual work and accelerate the development process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--/SERVICES-->
+
+
+    <!--SATISFACTION-->
+
+    <div class="flex flex-col md:flex-row items-center justify-around gap-4 p-6 md:p-12 bg-white  my-12">
+        <!-- Text Section -->
+        <div class="md:w-3/4 text-left">
+            <h2 class="text-xl text-center md:text-2xl font-semibold text-gray-800 leading-relaxed">
+                From the very beginning, we’ve kept our feet on the ground, our goals in focus, and the best customer
+                service.</h2>
+            <h2 class="text-xl text-center md:text-2xl font-semibold text-gray-800 leading-relaxed">
+                That’s why we confidently offer you a Satisfaction Guarantee
+            </h2>
+        </div>
+
+        <!-- Image Section -->
+        <div class="md:w-1/4 flex justify-center">
+            <img src="./assets/shake.png" alt="Handshake" class="w-48 h-48 object-cover rounded-full shadow-sm" />
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="w-full flex justify-center items-center mb-8">
+  <video 
+    src="assets/results.mp4"
+    autoplay 
+    muted 
+    loop 
+    playsinline
+    class="h-[14vh] aspect-[32/9] object-cover"
+  ></video>
+</div>
+
+
+
+
+    <div class="w-full  flex justify-center items-center mb-8">
+        <img src="./assets/Satisfaction.png" class="w-3/4 h-auto object-cover rounded-lg shadow-lg" alt="Results">
+    </div>
+
+
+
+
+    <a href="./#type"
+        class="inline-block m-8 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold shadow-md hover:bg-blue-700 transition duration-300">
+        Go to Main page
+    </a>
+
+
+    <!--/SATISFACTION-->
+
+
+
+    
+<!--Footer-->
+
+
+    <footer class="mt-8 bg-black text-gray-300 py-10 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+
+            <!-- Branding -->
+            <div>
+                <h2 class="text-white text-2xl font-bold mb-4 tracking-wide">Boost Agency</h2>
+                <p class="text-sm leading-relaxed">
+                    Elevamos tu presencia digital con estrategias creativas, contenido poderoso y diseño que deja
+                    huella.
+                </p>
+            </div>
+
+            <!-- Navigation -->
+            <div>
+                <h3 class="text-white text-lg font-semibold mb-3">Navegación</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#servicios" class="hover:text-white transition">Servicios</a></li>
+                    <li><a href="#casos" class="hover:text-white transition">Casos de Éxito</a></li>
+                    <li><a href="#blog" class="hover:text-white transition">Blog</a></li>
+                    <li><a href="#contacto" class="hover:text-white transition">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Social & Contact -->
+            <div>
+                <h3 class="text-white text-lg font-semibold mb-3">Síguenos</h3>
+                <div class="flex space-x-4 mb-4">
+                    <a href="#" class="text-xl hover:text-pink-500 transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-xl hover:text-blue-400 transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-xl hover:text-blue-600 transition"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-xl hover:text-red-600 transition"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="text-sm">📍 CDMX, México<br />✉ contacto@boostagency.mx</p>
+            </div>
+
+        </div>
+
+        <div class="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+            © 2025 Boost Agency · Todos los derechos reservados
+        </div>
+    </footer>
+
+    <!--/Footer-->
+
+
+
+</body>
+
+</html>
